@@ -21,6 +21,7 @@ class User():
             f.truncate(0)
             f.seek(0)
             f.write(json.dumps(result))
+            print(user_dict)
             return user_dict
 
     def upload_user(self,user,id):
@@ -45,6 +46,9 @@ class User():
             f.truncate(0)
             f.seek(0)
             f.write(json.dumps(result)) 
+            id += 1
+            print(user)
+            print(f'user {id} upload successfully') 
             return user
 
     def delete_user(self,id):
@@ -57,8 +61,9 @@ class User():
             result.pop(id)
             f.truncate(0)
             f.seek(0)
-            f.write(json.dumps(result)) 
-            return print('user delete successfully')
+            f.write(json.dumps(result))
+            print(f'user {id} delete successfully') 
+            return id
 
             
 
@@ -77,6 +82,7 @@ class User():
         with open('data.json', 'r+', encoding='utf-8') as f:
             result = json.loads(f.read())
             f.truncate(0)
-            f.seek(0)
+            f.seek(0) 
             f.write(json.dumps(result)) 
+            print(result)
             return result
