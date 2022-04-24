@@ -1,23 +1,23 @@
 ---------------------------------------ENGLISH-------------------------------------------------------------
 
 The application works correctly since it creates a user and is able to update the user's data by specifying the user's index example: (when creating our first user this will have index 1, the second will have index2. So on with all users created). you can also remove a user completely and you can display them: 
-
 Note: I did this program with 0 knowledge about UI and I also did it in a short time so I couldn't see the code in depth. There may be some bugs, but it's still very functional. 
-
 When interacting with the interface, these same entered data are shown in the terminal so that when something happens with the interface, we can use the Shell. Some errors can also occur when viewing the data from the interface since it does not fit very well. For the rest everything is fine. 
 
----------------------To run the graphical interface double click on ui.pyw-----------------------------------
+I didn't quite understand what he wanted Tom to do.
+what I did was what I thought Tom wanted :D
 
+---------------------To run the graphical interface double click on ui.pyw-------------------------
 
 
 
 -----------------------------------ESPAÑOL-------------------------------------------------------------------
 
 La aplicación funciona correctamente ya que crea un usuario es capaz de actualizar los datos del usuario especificando el índex del usuario ejemplo: (al momento de crear nuestro primer usuario este tendrá el índex 1, el segundo tendrá el index2. Así sucesivamente con todos los usuarios creados) también puede eliminar un usuario completamente y puedes visualizarlos: 
-
 Nota: este programa lo hice con 0 conocimientos sobre UI y también lo hice en poco tiempo así que no pude ver a profundidad el código. Puede que haya algunos errores, pero aun así sigue siendo muy funcional.  
-
 al momento de interactuar con la interfaz estos mismos datos ingresados se muestran en la terminal para que así cuando suceda algo con la interfaz podamos usar la Shell. También pueden ocurrir algunos fallos al visualizar los datos desde la interfaz ya que esta misma no se ajusta muy bien. Por el resto está todo bien.
 
+No entendí muy bien qué quería que hiciera Tom.
+lo que hice fue lo que pensé que Tom quería :D
 
 ------------------Para correr la interfaz grafica haga doble click en ui.pyw------------------------------------
