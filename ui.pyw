@@ -2,46 +2,6 @@
 from tkinter import *
 from main import *
 
-
-# raiz=Tk()
-
-# mi_nombre = StringVar()
-
-# miframe = Frame(raiz, width=650, height=350)
-# miframe.pack()
-
-# def text(row,colum):
-#     cuadrado_text = Entry(miframe)
-#     cuadrado_text.grid(row=row, column=colum, padx=10, pady=10)
-
-# def description(row,colum, name):
-#     nombreLabel = Label(miframe, text=name)
-#     nombreLabel.grid(row=row, column=colum, padx=10, pady=10)
-
-
-# def run():
-#     mi_nombre.set()
-
-# bottom = Button(raiz, text='enviar', command=run)
-# bottom.pack()
-
-# nombreLabel = Label(miframe, text='nombre:')
-# nombreLabel.grid(row=0, column=0, padx=10, pady=10)
-
-# cuadrado_text = Entry(miframe, textvariable=mi_nombre)
-# cuadrado_text.grid(row=0, column=1, padx=10, pady=10)
-
-
-# description(1,0,'email')
-# text(1,1)
-
-# description(2,0,'address')
-# text(2,1)
-
-
-
-# raiz.mainloop()
-
 raiz=Tk()
 Status = False
 miframe = Frame(raiz, width=650, height=350)
@@ -168,15 +128,6 @@ delete_bottom.grid(row=15, column=1, padx=10, pady=10, columnspan=2)
 
 
 #------------------------------View Users-------------------------->
-
-# def view():
-#     main = CreateUser()
-#     result = main.show_user()
-#     for i in range(len(result)):
-#         for resul in result:
-#             result = dict(result)
-#             view_name_label = Label(view_name_text, text=result['first_name'])    
-#             view_name_label.grid(row=0,column=0,padx=10,pady=10)
 
 
 def view2(): 
